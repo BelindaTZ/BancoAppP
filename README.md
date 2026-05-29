@@ -6,13 +6,9 @@ Aplicación Android de banca móvil. Esta pantalla de inicio permite al usuario 
 
 ## Capturas del diseño
 
-> Toma las capturas desde el emulador o dispositivo y guárdalas en la carpeta `screenshots/` con los nombres indicados.
-
 | Pantalla principal |
 |:------------------:|
 | ![Pantalla principal](screenshots/Captura.png) |
-
-Para agregar más capturas, guárdalas en `screenshots/` y referéncialas así:
 
 ```markdown
 ![Descripción](screenshots/Captura.png)
