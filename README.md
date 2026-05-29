@@ -89,4 +89,4 @@ screenshots/                   # capturas del diseño (agregar aquí)
 
 ## Autor
 
-**BelindaTZ** — [sleepislife2409@gmail.com](mailto:sleepislife2409@gmail.com)
+**BelindaTZ** — [btoaquizaz@uteq.edu.ec](mailto:sleepislife2409@gmail.com)
