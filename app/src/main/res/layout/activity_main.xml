@@ -38,7 +38,7 @@
         app:layout_constraintTop_toBottomOf="@+id/ivLogin">
 
         <ImageButton
-            android:id="@+id/imageButton"
+            android:id="@+id/ibUser"
             android:layout_width="0dp"
             android:layout_height="72dp"
             android:layout_weight="1"
@@ -51,7 +51,7 @@
             app:srcCompat="@drawable/user" />
 
         <ImageButton
-            android:id="@+id/imageButton2"
+            android:id="@+id/ibHuella"
             android:layout_width="0dp"
             android:layout_height="72dp"
             android:layout_weight="1"
@@ -64,7 +64,7 @@
             app:srcCompat="@drawable/huella" />
 
         <ImageButton
-            android:id="@+id/imageButton3"
+            android:id="@+id/ibPin"
             android:layout_width="0dp"
             android:layout_height="72dp"
             android:layout_weight="1"
@@ -76,5 +76,65 @@
             android:stateListAnimator="@null"
             app:srcCompat="@drawable/pin" />
     </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/InBotonesExtra"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        app:layout_constraintEnd_toEndOf="@+id/InBotones"
+        app:layout_constraintStart_toStartOf="@+id/InBotones"
+        app:layout_constraintTop_toBottomOf="@+id/InBotones">
+
+        <ImageButton
+            android:id="@+id/ibUbicanos"
+            android:layout_width="0dp"
+            android:layout_height="72dp"
+            android:layout_weight="1"
+            android:layout_margin="8dp"
+            android:padding="10dp"
+            android:scaleType="centerInside"
+            android:background="@null"
+            android:stateListAnimator="@null"
+            app:srcCompat="@drawable/ubicanos" />
+
+        <ImageButton
+            android:id="@+id/ibClave"
+            android:layout_width="0dp"
+            android:layout_height="72dp"
+            android:layout_weight="1"
+            android:layout_margin="8dp"
+            android:padding="10dp"
+            android:scaleType="centerInside"
+            android:background="@null"
+            android:stateListAnimator="@null"
+            app:srcCompat="@drawable/clave" />
+
+        <ImageButton
+            android:id="@+id/ibLlamar"
+            android:layout_width="0dp"
+            android:layout_height="72dp"
+            android:layout_weight="1"
+            android:layout_margin="8dp"
+            android:padding="10dp"
+            android:scaleType="centerInside"
+            android:background="@null"
+            android:stateListAnimator="@null"
+            app:srcCompat="@drawable/llamanos" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="¿Ingresar con otro usuario?"
+        android:textColor="#2B7ABD"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/InBotonesExtra"
+        app:layout_constraintStart_toStartOf="@+id/InBotonesExtra"
+        app:layout_constraintTop_toBottomOf="@+id/InBotonesExtra" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
